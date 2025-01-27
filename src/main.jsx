@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename= '/stages-jobs-steps'>
         <App />
       </BrowserRouter>
     </Provider>
